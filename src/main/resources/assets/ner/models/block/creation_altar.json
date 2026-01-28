@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "ner:block/creation_altar_bottom",
+    "up": "ner:block/creation_altar_top",
+    "north": "ner:block/creation_altar_side",
+    "south": "ner:block/creation_altar_side",
+    "west": "ner:block/creation_altar_side",
+    "east": "ner:block/creation_altar_side",
+    "particle": "ner:block/creation_altar_top"
+  }
+}

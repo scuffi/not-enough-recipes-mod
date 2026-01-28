@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "dev.scuffi.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MappedRegistryAccessor",
+		"MappedRegistryIntrusive",
+		"HolderReferenceAccessor"
+	],
+	"client": [
+		"PackRepositoryMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

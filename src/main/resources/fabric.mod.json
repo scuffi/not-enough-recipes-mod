@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "not-enough-recipes",
+	"version": "${version}",
+	"name": "Not Enough Recipes",
+	"description": "Dynamic registry and resource manipulation POC for Minecraft",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/not-enough-recipes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.scuffi.NotEnoughRecipes"
+		],
+		"client": [
+			"dev.scuffi.NotEnoughRecipesClient"
+		],
+		"fabric-datagen": [
+			"dev.scuffi.NotEnoughRecipesDataGenerator"
+		]
+	},
+	"mixins": [
+		"not-enough-recipes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
